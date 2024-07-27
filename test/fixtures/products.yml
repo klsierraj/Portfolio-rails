@@ -1,0 +1,18 @@
+ps5:
+  title: ps5
+  description: new ps5
+  price: 700
+  category: videogames
+
+iphone:
+  title: Iphone 15
+  description: new iphone
+  price: 900
+  category: videogames
+
+air:
+  title: Macbook air
+  description: Renewal
+  price: 400
+  category: computers
+
