@@ -1,4 +1,8 @@
+<%= turbo_frame_tag 'categories' do %>
 <h2>Products</h2>
+<%= link_to t('.all'), products_path %>
 <%= render partial: 'category' , collection: @categories %>
     <br>
     <%= render partial: 'product' , collection: @products %>
+
+    <% end %>
